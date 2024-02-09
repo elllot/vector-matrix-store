@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "vector-matrix-store"
+version = "0.1.0"
+description = ""
+authors = ["Elliot Yun <syunelli@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+tqdm = "^4.66.1"
+dataclasses-json = "^0.6.4"
+wheel = "^0.42.0"
+ml-dtypes = "0.2.0"
+jax = {extras = ["cpu"], version = "^0.4.24"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
